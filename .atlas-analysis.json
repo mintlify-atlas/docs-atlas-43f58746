@@ -1,0 +1,182 @@
+{
+  "projectType": "cli-tool",
+  "projectName": "Rustic",
+  "projectDescription": "Fast, encrypted, and deduplicated backups powered by Rust",
+  "theme": "aspen",
+  "primaryColor": "#9c2f06",
+  "lightColor": "#1c79a5",
+  "darkColor": "#a68779",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart",
+              "concepts"
+            ]
+          },
+          {
+            "group": "Core Commands",
+            "pages": [
+              "commands/init",
+              "commands/backup",
+              "commands/restore",
+              "commands/check"
+            ]
+          },
+          {
+            "group": "Snapshot Management",
+            "pages": [
+              "commands/snapshots",
+              "commands/forget",
+              "commands/ls",
+              "commands/diff",
+              "commands/find",
+              "commands/tag"
+            ]
+          },
+          {
+            "group": "Advanced Operations",
+            "pages": [
+              "commands/prune",
+              "commands/repair",
+              "commands/rewrite",
+              "commands/merge",
+              "commands/copy"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/overview",
+              "configuration/profiles",
+              "configuration/hooks",
+              "configuration/backends",
+              "configuration/environment-variables"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "features/mount",
+              "features/webdav",
+              "features/tui",
+              "features/filtering",
+              "features/retention-policies"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/troubleshooting",
+              "reference/faq",
+              "reference/comparison-restic",
+              "reference/ecosystem"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Command Reference",
+        "groups": [
+          {
+            "group": "Repository Commands",
+            "pages": [
+              "cli/init",
+              "cli/check",
+              "cli/repoinfo",
+              "cli/config",
+              "cli/key"
+            ]
+          },
+          {
+            "group": "Backup & Restore",
+            "pages": [
+              "cli/backup",
+              "cli/restore",
+              "cli/dump"
+            ]
+          },
+          {
+            "group": "Snapshot Operations",
+            "pages": [
+              "cli/snapshots",
+              "cli/forget",
+              "cli/ls",
+              "cli/diff",
+              "cli/find",
+              "cli/tag",
+              "cli/cat",
+              "cli/list"
+            ]
+          },
+          {
+            "group": "Maintenance",
+            "pages": [
+              "cli/prune",
+              "cli/repair",
+              "cli/rewrite",
+              "cli/merge",
+              "cli/copy"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "cli/mount",
+              "cli/webdav",
+              "cli/tui",
+              "cli/self-update",
+              "cli/completions"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Fast, encrypted, deduplicated backups",
+    "Compatible with restic repository format",
+    "Support for local and cloud storage backends",
+    "Concurrent access with lock-free operations",
+    "Flexible retention policies and snapshot management",
+    "Configuration via TOML profiles",
+    "Advanced features: mount, WebDAV, TUI",
+    "Comprehensive filtering and tagging system",
+    "Hook system for custom automation",
+    "Hot/cold storage support"
+  ],
+  "publicApiSurface": [
+    "backup",
+    "restore",
+    "init",
+    "check",
+    "snapshots",
+    "forget",
+    "prune",
+    "ls",
+    "diff",
+    "find",
+    "cat",
+    "dump",
+    "config",
+    "key",
+    "list",
+    "merge",
+    "copy",
+    "repair",
+    "repoinfo",
+    "rewrite",
+    "tag",
+    "mount",
+    "webdav",
+    "tui",
+    "completions",
+    "self-update"
+  ]
+}
